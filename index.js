@@ -6,6 +6,8 @@ const uuid4 = require('uuid')
 const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
+const cors = require('cors');
+app.use(cors());
 
 const token = '7851599793:AAGs6WwO2eq8Akr5EICNd5-IQtokWL15W7M'
 const id = '2141235123'
